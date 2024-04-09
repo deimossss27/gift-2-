@@ -12,6 +12,15 @@ body {
   align-items: center;
 }
 
+h1 {
+  animation: slidein 3s;
+}
+
+@keyframes slidein {
+  from { width: 0 }
+  to { width: 100% }
+}
+
 #card-front {
   color: #FFDFDF;
   z-index: 10;
